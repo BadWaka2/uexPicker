@@ -802,7 +802,8 @@ public class PickerFragment extends BaseFragment {
 		}
 		// 日
 		final WheelView wv_day = (WheelView) view.findViewById(EUExUtil.getResIdID("day"));
-		// wv_day.ADDITIONAL_ITEM_HEIGHT = hg / 5;
+		// TODO by waka
+		wv_day.ADDITIONAL_ITEM_HEIGHT = hg / 5;
 		if (type == 3) {
 			wv_day.setCyclic(true);
 			wv_day.setVisibility(View.VISIBLE);

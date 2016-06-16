@@ -59,7 +59,7 @@ public class EUExPicker extends EUExBase {
 	 */
 	public void open(String[] params) {
 
-		MLog.getIns().d("params.length = " + params.length);
+		MLog.getIns().i("params.length = " + params.length);
 
 		try {
 			final String tmId = params[0];
@@ -70,8 +70,16 @@ public class EUExPicker extends EUExBase {
 			final float h = Float.parseFloat(params[4]);
 			final int type = Integer.parseInt(params[5]);
 			final String listStyle = params[6];
+			MLog.getIns().i("tmId = " + tmId);
+			MLog.getIns().i("x = " + x);
+			MLog.getIns().i("y = " + y);
+			MLog.getIns().i("w = " + w);
+			MLog.getIns().i("h = " + h);
+			MLog.getIns().i("type = " + type);
+			MLog.getIns().i("listStyle = " + listStyle);
 			if (params.length == 8) {
 				final String countCode = params[7];
+				MLog.getIns().i("countCode = " + countCode);
 				SharedPre1.setStrDate(countCode, mContext, Contains.dateStr);
 			} else {
 				SharedPre1.setStrDate("0", mContext, Contains.dateStr);

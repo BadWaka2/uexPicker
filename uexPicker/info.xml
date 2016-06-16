@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <uexplugins>
     <plugin
-        uexName="uexPicker" version="3.0.26" build="26">
-         <info>26:去掉插件中的ActivityGroup,配合引擎升级</info>
+        uexName="uexPicker" version="3.0.27" build="27">
+         <info>27:修复了不传入selbgImg时出现日期与年月格式不一样的问题</info>
+         <build>26:去掉插件中的ActivityGroup,配合引擎升级</build>
          <build>25:(神华国能定制版)修复显示选择空白日期的崩溃bug,添加type3的日期限制字段</build>
 		 <build>8:将uexPicker插件中时间选项，改为的00和30两个选项</build>
 		 <build>7:修正华为mate7上显示过大的情况</build>

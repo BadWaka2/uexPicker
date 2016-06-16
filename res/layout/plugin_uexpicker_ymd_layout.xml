@@ -6,7 +6,7 @@
 
     <RelativeLayout
         android:id="@+id/frame_relative"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/plugin_uexpicker_layout_color"
         android:padding="1dip" >
