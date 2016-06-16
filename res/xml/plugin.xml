@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+
+    <plugin
+        className="org.zywx.wbpalmstar.plugin.uexpicker.EUExPicker"
+        uexName="uexPicker" >
+        <method name="open" />
+        <method name="setJsonData" />
+        <method name="close" />
+    </plugin>
+
+</uexplugins>

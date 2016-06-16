@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+    <plugin
+        uexName="uexPicker" version="3.0.26" build="26">
+         <info>26:去掉插件中的ActivityGroup,配合引擎升级</info>
+         <build>25:(神华国能定制版)修复显示选择空白日期的崩溃bug,添加type3的日期限制字段</build>
+		 <build>8:将uexPicker插件中时间选项，改为的00和30两个选项</build>
+		 <build>7:修正华为mate7上显示过大的情况</build>
+		 <build>6:增加分钟数显式方式</build>
+		 <build>5:适配显示字体</build>
+		 <build>4:修改小米3字体变大问题</build>
+		 <build>3:修改网页端参数个数</build>
+		 <build>2:将当前显示日期，改为上一次显示日期</build>
+         <build>1:修改传入参数</build>
+		 <build>0:uexPicker插件</build>
+    </plugin>
+</uexplugins>
